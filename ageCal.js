@@ -1,2 +1,2 @@
-console.log(`Calculated age is`);
+console.log(`we can make another calculator`);
 console.log("age calculator");
