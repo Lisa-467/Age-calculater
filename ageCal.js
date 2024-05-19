@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
     const selectedDate = new Date(dateInput.value);
     if (isNaN(selectedDate)) {
-      resultParagraph.textContent = " select a valid date please ";
+      resultParagraph.textContent = " please select a valid date  ";
       return;
     }
     const age = calculateAge(selectedDate);
